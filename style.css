@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap');
 
 :root {
-    --cor-de-fundo: #9263f3;
-    --verde: #6FFF57;
-    --branco: #FFFFFF;
-    --botao-ativo: #784fe7;
-    --botao-inativo: rgba(154, 145, 255, 0.3);
-    --texto-fundo: rgba(154, 145, 255, 0.3);
+    --cor-de-fundo: #fffff3;
+    --verde: #659957;
+    --branco: #467a39;
+    --botao-ativo: #d1dec5;
+    --botao-inativo: rgb(101, 153, 87);
+    --texto-fundo: rgb(209, 222, 197);
 }
 
 body {
@@ -38,7 +38,7 @@ body {
 
 
 .botao {
-    font-family: 'Courier New', Courier, monospace
+    font-family: 'Courier New', Courier, monospace;
     background-color: var(--botao-inativo);
     color: var(--branco);
     display: flex;
